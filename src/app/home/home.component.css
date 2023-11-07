@@ -1,0 +1,16 @@
+.centrar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    width: 20%;
+  }
+  
+  /* Estilo para dispositivos de tamaño mediano (tabletas) */
+  @media (max-width: 500px) {
+    .banner {
+      width: 80%; /* Cambia el ancho al 75% en dispositivos medianos */
+    }
+  }
+  
